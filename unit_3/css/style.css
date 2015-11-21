@@ -1,20 +1,52 @@
+* { margin: 0;}
+
 #main {
   text-align: center;
-  background-image: url ("../image/startup2.jpg");
-  background-size: cover;
+  background: url('../images/startup2.jpg');
+background-size: cover;
   background-repeat: no-repeat center top;
-  color: #F8F8FF;}
+  height: 500px;
+  }
+#container {
+  border: 3px solid white;
+  width: 800px;
+  margin: 0 auto;
+  top: 100px;
+  position: relative;
+}
 h1 {
   text-align: center;
   font-family: 'Julius Sans One', sans-serif;
   color: #F8F8FF;
   font-weight: 700;
   font-size: 40px;
+  padding-top: 5px;
+  margin-top: 4px;
 }
 p { 
  text-align: center;
- color: ##F8F8FF;
+ color: #F8F8FF;
  font-family: 'Raleway', sans-serif;
  font-weight: 400;
  font-size: 25px;
+ position: relative;
+ margin-top: 150px;
+}
+
+/*#strategy {
+  border: 1px none;
+  height: 150px;
+  background: #ecf0f1;
+}
+
+#copy {
+  border: 1px none;
+  height: 150px;
+  background: #ecf0f1;
+}
+
+#socialmedia {
+  border: 1px none;
+  height: 150px;
+  background: #ecf0f1;
 }
