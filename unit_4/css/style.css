@@ -1,0 +1,54 @@
+* { margin: 0;}
+
+#main {
+  text-align: center;
+  background: url('../images/startup2.jpg');
+background-size: cover;
+  background-repeat: no-repeat center top;
+  height: 500px;
+  }
+/*#container {
+  border: 3px solid white;
+  width: 800px;
+  margin: 0 auto;
+  top: 100px;
+  position: relative;
+}*/
+
+h1 {
+  text-align: center;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #F8F8FF;
+  font-weight: 700;
+  font-size: 50px;
+  padding-top: 170px;
+  margin-top: 5px;
+}
+
+p { 
+ text-align: center;
+ color: #F8F8FF;
+ font-family: 'Hammersmith One', sans-serif;
+ font-weight: 100;
+ font-size: 25px;
+ position: relative;
+ margin-top: 50px;
+}
+
+/*#strategy {
+  border: 1px none;
+  height: 150px;
+  background: #ecf0f1;
+}
+
+#copy {
+  border: 1px none;
+  height: 150px;
+  background: #ecf0f1;
+}
+
+#socialmedia {
+  border: 1px none;
+  height: 150px;
+  background: #ecf0f1;
+}
