@@ -1,0 +1,120 @@
+* { margin: 0;}
+
+nav{ 
+background-color: #E8C66A;
+border: 1px black solid;
+padding: 20px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 100;
+font-size: 10px;
+
+}
+
+
+header {
+  text-align: center;
+  /*background: url('../images/coffeeshop1.jpg');*/
+  background-color: #FFED74;
+  border: 1px black solid;
+  padding: 20px;
+  background-size: cover;
+  height: 400px;
+  }
+
+header h1 {
+  text-align: center;
+  font-family:'Arvo', serif ;
+  /*color: #F8F8FF;*/
+  color: black;
+  font-weight: 700;
+  font-size: 50px;
+  padding-top: 120px;
+  margin-top: 5px;
+}
+
+header p { 
+ text-align: center;
+ /*color: #F8F8FF;*/
+ color: black;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 100;
+ font-size: 25px;
+ margin-top: 40px;
+}
+/*section {
+  height: 500px;
+}*/
+
+
+#strategy {
+  /*background: #ecf0f1;*/
+  background: #FFE2B8;
+  background-size: cover;
+  border: 1px solid black;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+
+}
+
+#copy {
+  /*background: url('../images/coffeeshop3.jpg');*/
+  background: #FFE2B8; 
+  background-size: cover;
+  border: 1px solid black;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+#presentations {
+  /*background: #ecf0f1;*/
+  background: #FFE2B8;
+  background-size: cover;
+  border: 1px solid black;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+#socialmedia {
+  /*background: url('../images/coffeeshop2.jpg');*/
+  background: #FFE2B8;
+  background-size: cover;
+  border: 1px solid black;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+#individual {
+  background: #E89C6C;
+  border: 1px solid black;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+#organizations {
+  background: #E89C6C;
+  border: 1px solid black;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #FF957E;
+  border: 1px black solid;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 10px;
+}
+  
