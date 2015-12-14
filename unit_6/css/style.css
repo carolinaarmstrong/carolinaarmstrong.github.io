@@ -3,16 +3,31 @@
 nav{ 
 background-color: #8A96B5;
 border: 1px black solid;
-padding: 20px;
+padding: 25px;
 }
 
 nav a {
-font-family: 'Open Sans', sans-serif;
-font-weight: 100;
-font-size: 15px;
-color: white;
+font-family: 'Arvo', serif;
+font-weight: 50;
+font-size: 18px;
+color: #F8F8FF;
 text-decoration: none;
-margin: 10px;
+padding: 0px 30px;
+display: inline-block;
+float: right;
+}
+
+.clearfix: after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+a: hover {
+  background-color: #1E1E1E;
 }
 
 
@@ -28,8 +43,7 @@ header {
 header h1 {
   text-align: center;
   font-family:'Arvo', serif ;
-  /*color: #F8F8FF;*/
-  color: white;
+  color: #F8F8FF;
   font-weight: 700;
   font-size: 50px;
   padding-top: 120px;
@@ -45,10 +59,6 @@ header p {
  font-size: 25px;
  margin-top: 40px;
 }
-/*section {
-  height: 500px;
-}*/
-
 
 #strategy {
   background: #F8F8FF;
@@ -95,24 +105,39 @@ header p {
   font-size: 25px;
 }
 
+#firstaside {
+  float: left;
+  clear: both;
+  width: 60%;
+}
+
 #individual {
-  background: #F8F8FF;
+  float: left;
+  background: violet;
   border: 1px solid black;
-  padding: 20px;
+  padding: 100px;
   color: #1E1E1E;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 15px;
+  text-align: center;
+}
+
+#secondaside {
+  float: right
+  clear: both;
+
 }
 
 #organizations {
-  background: #F8F8FF;
+  background: pink;
   border: 1px solid black;
-  padding: 20px;
+  padding: 100px;
   color: #1E1E1E;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 15px;
+  text-align: center;
 }
 
 footer {
@@ -120,7 +145,7 @@ footer {
   border: 1px black solid;
   padding: 20px;
   color: #F8F8FF;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: 100;
   font-size: 10px;
 }
