@@ -1,9 +1,8 @@
 * { margin: 0;}
 
 nav{ 
-background-color: #8A96B5;
-border: 1px black solid;
 padding: 25px;
+float: right;
 }
 
 nav a {
@@ -11,22 +10,13 @@ font-family: 'Arvo', serif;
 font-weight: 50;
 font-size: 18px;
 color: #F8F8FF;
+background-color: rgba(30,30,30,.18);
 text-decoration: none;
-padding: 0px 30px;
+padding: 0px 15px;
 display: inline-block;
-float: right;
 }
 
-.clearfix: after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
-}
-
-a: hover {
+a:hover {
   background-color: #1E1E1E;
 }
 
@@ -34,7 +24,6 @@ a: hover {
 header {
   text-align: center;
   background: url('../images/coffeeshop1edit.jpg') no-repeat top scroll;
-  border: 1px black solid;
   padding: 20px;
   background-size: cover;
   height: 400px;
@@ -52,12 +41,24 @@ header h1 {
 
 header p { 
  text-align: center;
- /*color: #F8F8FF;*/
  color: white;
  font-family: 'Open Sans', sans-serif;
  font-weight: 100;
  font-size: 25px;
  margin-top: 40px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+#topnav{
+  background-color: rgba(30,30,30,.18);
 }
 
 #strategy {
@@ -107,15 +108,12 @@ header p {
 
 #firstaside {
   float: left;
-  clear: both;
-  width: 60%;
+  width: 50%;
 }
 
 #individual {
-  float: left;
   background: violet;
-  border: 1px solid black;
-  padding: 100px;
+  padding: 150px 80px;
   color: #1E1E1E;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
@@ -124,15 +122,14 @@ header p {
 }
 
 #secondaside {
-  float: right
-  clear: both;
+  float: right;
+  width: 50%;
 
 }
 
 #organizations {
   background: pink;
-  border: 1px solid black;
-  padding: 100px;
+  padding: 150px 80px;
   color: #1E1E1E;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;

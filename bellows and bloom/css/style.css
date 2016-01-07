@@ -1,0 +1,138 @@
+* { margin: 0;}
+
+nav{ 
+background-color: rgba(138,150,181,.30);
+padding: 25px;
+}
+
+nav a {
+font-family: 'Arvo', serif;
+font-weight: 50;
+font-size: 18px;
+color: #F8F8FF;
+text-decoration: none;
+padding: 0px 30px;
+display: inline-block;
+float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+a:hover {
+  background-color: #1E1E1E;
+}
+
+
+header {
+  text-align: center;
+  background: url('../images/heroheader.jpg') no-repeat center center scroll;
+  background-size: cover;
+  height: 500px;
+  }
+
+header img {
+  display: block;
+  padding-top: 40px 70px;
+  margin: 40px auto;
+}
+
+header p { 
+ text-align: center;
+ color: #F8F8FF;
+ font-family: 'Spinnaker', sans-serif;
+ font-weight: 100;
+ font-size: 25px;
+ margin-top: 60px;
+}
+
+#fashion {
+  background: #F8F8FF;
+  background-size: cover;
+  padding: 80px 20px;
+  color: #1E1E1E;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+
+}
+
+#engagement {
+  background: url('../images/engagement1.jpg') no-repeat center scroll;
+  background-size: cover;
+  padding: 100px 20px;
+  color: #F8F8FF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+#portrait {
+  background: #F8F8FF;
+  background-size: cover;
+  padding: 80px 20px;
+  color: #1E1E1E;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+#product {
+  background: url('../images/product1.jpg') no-repeat center scroll;
+  background-size: cover;
+  padding: 100px 40px;
+  color: #F8F8FF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+#firstaside {
+  float: left;
+  clear: both;
+  width: 60%;
+}
+
+#individual {
+  float: left;
+  background: violet;
+  padding: 100px;
+  color: #1E1E1E;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+}
+
+#secondaside {
+  float: right
+  clear: both;
+
+}
+
+#organizations {
+  background: pink;
+  padding: 100px;
+  color: #1E1E1E;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+}
+
+footer {
+  background-color: #8A96B5;
+  border: 1px black solid;
+  padding: 20px;
+  color: #F8F8FF;
+  font-family: 'Arvo', serif;
+  font-weight: 100;
+  font-size: 10px;
+}
+  
