@@ -1,0 +1,156 @@
+* { margin: 0;}
+
+nav{ 
+padding: 15px;
+float: right;
+}
+
+nav a {
+font-family: 'Arvo', serif;
+font-weight: 50;
+font-size: 18px;
+color: #F8F8FF;
+text-decoration: none;
+padding: 0px 10px;
+display: inline-block;
+}
+
+nav a:hover {
+color: #FFE4E1;
+}
+
+
+header {
+  text-align: center;
+  background: url('../images/coffeeshop1edit.jpg') no-repeat top scroll;
+  padding: 15px;
+  background-size: cover;
+  height: 400px;
+  }
+
+header h1 {
+  text-align: center;
+  font-family:'Arvo', serif ;
+  color: #F8F8FF;
+  font-weight: 700;
+  font-size: 50px;
+  padding-top: 120px;
+  margin-top: 5px;
+}
+
+header p { 
+ text-align: center;
+ color: white;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 100;
+ font-size: 25px;
+ margin-top: 40px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+#topnav{
+  background-color: rgba(30,30,30,.18);
+}
+
+#strategy {
+  background: #F8F8FF;
+  background-size: cover;
+  padding: 80px 20px;
+  color: #1E1E1E;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+
+}
+
+#copy {
+  background: url('../images/coffeeshop3edit.jpg') no-repeat center center scroll;
+  background-size: cover;
+  padding: 100px 20px;
+  color: #F8F8FF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+#presentations {
+  background: #F8F8FF;
+  background-size: cover;
+  padding: 80px 20px;
+  color: #1E1E1E;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+#socialmedia {
+  background: url('../images/coffeeshop2edit.jpg') no-repeat center center scroll;
+  background-size: cover;
+  padding: 100px 20px;
+  color: #F8F8FF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+#firstaside {
+  float: left;
+  width: 50%;
+}
+
+#individual {
+  background: violet;
+  padding: 150px 80px;
+  color: #1E1E1E;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+}
+
+#secondaside {
+  float: right;
+  width: 50%;
+
+}
+
+#organizations {
+  background: pink;
+  padding: 150px 80px;
+  color: #1E1E1E;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  text-align: center;
+}
+
+footer {
+  background-color: #8A96B5;
+  padding: 20px;
+  color: #F8F8FF;
+  font-family: 'Arvo', serif;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 960px){
+  #individual, #organizations {
+    padding: 150px 40px;
+  }
+}
+
+@media screen and (max-width: 788px){
+  #firstaside, #secondaside{
+    float: none;
+    width: 100%;
+  }
+}
+  
